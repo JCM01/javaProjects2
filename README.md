@@ -13,7 +13,7 @@ This is the content:
 - Entity Manager
 - Maven 
 - Persistance
-- Connection to MySQL and PostgreSQL
+- Connection to MySQL and PostgreSQL (Drivers: com.mysql.cj.jdbc.Driver and org.postgresql.Driver)
 - JPA
 - CRUD and queries
 - Spring 
