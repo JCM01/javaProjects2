@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd" xmlns:context="http://www.springframework.org/schema/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+
+<bean class="com.SpringFiesta1.Local" id="local">
+
+<constructor-arg type="int" value="200" index="0"/>
+
+<constructor-arg type="java.lang.String" value="Calle Carabanchel, 34" index="1"/>
+
+</bean>
+
+
+<bean class="com.SpringFiesta1.Fiesta" id="fiesta">
+
+<property value="Hardstyle" name="tipoMusica"/>
+
+<property value="Brenan Heart" name="nombre"/>
+
+<property name="local" ref="local"/>
+
+</bean>
+
+</beans>
